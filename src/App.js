@@ -46,7 +46,7 @@ function App() {
             alt="logo"
           />
         </div>
-        <h1 style={{ maxWidth: "80%", margin: "auto" }}>{randomQuote}</h1>
+        <h1 style={{ maxWidth: "80%", margin: "0px auto" }}>{randomQuote}</h1>
       </header>
     </div>
   );

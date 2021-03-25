@@ -2,17 +2,12 @@ html {
   background-color: #282c34;
 }
 
-.spiders {
-  display: flex;
-  flex-direction: column;
-}
-
 .App {
   text-align: center;
 }
 
 .App-logo, .App-logo2 {
-  height: 50vmin;
+  height: 70vmin;
   pointer-events: none;
 }
 
