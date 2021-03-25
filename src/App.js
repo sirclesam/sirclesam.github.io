@@ -24,9 +24,12 @@ function App() {
     "Don't Panic.",
     "If there's anything more important than my ego around, I want it caught and shot now.",
     "I never could get the hang of Thursdays.",
+    "Nicky had to stop fucking John because John's plague of dickspiders were irritating her twat.",
+    "Merv aka 'The Cactai' was handed his nickname due to the appearance of his erect penis with an excessive amount of dickspiders.",
+    "Murray was scared to shower in the changerooms after the footy due to the boys ribbing him about his dickspider epidemic.",
   ];
 
-  const images = importAll(require.context("../public/imgs", false, /\.(png|jpe?g|svg)$/));
+  const images = importAll(require.context("../public/imgs", false, /\.(png|jpe?g|svg|gif)$/));
 
   // const randomImages = shuffle(images);
 
