@@ -36,7 +36,11 @@ function App() {
         </p>
         <div className="spiders">
           {randomImages.map((image) => (
-            <img src={image.default} className="App-logo" alt="logo" />
+            <img
+              src={image.default}
+              className={Math.round(Math.random()) === 1 ? "App-logo" : "App-logo2"}
+              alt="logo"
+            />
           ))}
         </div>
       </header>
