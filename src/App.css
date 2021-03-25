@@ -2,6 +2,11 @@ html {
   background-color: #282c34;
 }
 
+.spiders {
+  display: flex;
+  flex-direction: column;
+}
+
 .App {
   text-align: center;
 }
@@ -11,14 +16,14 @@ html {
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
   .App-logo2 {
     animation: App-logo-spin2 infinite 15s linear;
   }
-}
+} */
 
 .App-header {
   min-height: 100vh;
