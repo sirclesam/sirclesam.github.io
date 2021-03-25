@@ -4,24 +4,41 @@ function App() {
   function importAll(r) {
     return r.keys().map(r);
   }
+  function shuffle(array) {
+    var currentIndex = array.length,
+      temporaryValue,
+      randomIndex;
+
+    // While there remain elements to shuffle...
+    while (0 !== currentIndex) {
+      // Pick a remaining element...
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex -= 1;
+
+      // And swap it with the current element.
+      temporaryValue = array[currentIndex];
+      array[currentIndex] = array[randomIndex];
+      array[randomIndex] = temporaryValue;
+    }
+
+    return array;
+  }
 
   const images = importAll(require.context("../public/imgs", false, /\.(png|jpe?g|svg)$/));
-  console.log("images: ", images);
 
-  const rand = Math.floor(images.length * Math.random());
-  console.log("rand: ", rand);
-
-  const dickSource = images[rand].default;
-  console.log("dickSource: ", dickSource);
+  const randomImages = shuffle(images);
 
   return (
     <div className="App">
       <header className="App-header">
-        <img src={dickSource} className="App-logo" alt="logo" />
         <p>
           Welcome to the Future home of <code>DickSpiders.com</code>
         </p>
-        <p>Reload to see a new dick spider</p>
+        <div className="spiders">
+          {randomImages.map((image) => (
+            <img src={image.default} className="App-logo" alt="logo" />
+          ))}
+        </div>
       </header>
     </div>
   );
