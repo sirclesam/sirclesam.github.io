@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "./App.css";
 // import { quotes } from "./quotes";
 
@@ -32,16 +33,26 @@ function App() {
   const images = importAll(require.context("../public/imgs", false, /\.(png|jpe?g|svg|gif)$/));
 
   // const randomImages = shuffle(images);
+  const [randomSrc, setSrc] = useState(images[Math.floor(Math.random() * images.length)].default);
+  const [randomQuote, setQuote] = useState(quotes[Math.floor(Math.random() * quotes.length)]);
 
-  const randomSrc = images[Math.floor(Math.random() * images.length)].default;
-  const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+  const getRandomDick = () => {
+    setSrc(images[Math.floor(Math.random() * images.length)].default);
+    setQuote(quotes[Math.floor(Math.random() * quotes.length)]);
+  };
+
+  // const randomSrc = images[Math.floor(Math.random() * images.length)].default;
+  // const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
 
   return (
     <div className="App">
       <header className="App-header">
-        <p>
+        <p id="title">
           Welcome to the Future home of <code>DickSpiders.com</code>
         </p>
+        <button className={"moarDick"} onClick={getRandomDick}>
+          GIVE ME MORE DICK<span className="tinySpiders">spiders</span>!
+        </button>
         <div className="spiders">
           <img
             src={randomSrc}
