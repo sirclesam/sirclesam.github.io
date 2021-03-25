@@ -19,7 +19,7 @@ function App() {
       <header className="App-header">
         <img src={dickSource} className="App-logo" alt="logo" />
         <p>
-          Welcome to the Future home of <code>DickSpiers.com</code>
+          Welcome to the Future home of <code>DickSpiders.com</code>
         </p>
         <p>Reload to see a new dick spider</p>
       </header>
