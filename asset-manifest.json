@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8bcbd900.chunk.css",
+    "main.js": "/static/js/main.69d57af0.chunk.js",
+    "main.js.map": "/static/js/main.69d57af0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.cc997f25.js",
+    "runtime-main.js.map": "/static/js/runtime-main.cc997f25.js.map",
+    "static/js/2.d677d3e1.chunk.js": "/static/js/2.d677d3e1.chunk.js",
+    "static/js/2.d677d3e1.chunk.js.map": "/static/js/2.d677d3e1.chunk.js.map",
+    "static/js/3.ef001003.chunk.js": "/static/js/3.ef001003.chunk.js",
+    "static/js/3.ef001003.chunk.js.map": "/static/js/3.ef001003.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.8bcbd900.chunk.css.map": "/static/css/main.8bcbd900.chunk.css.map",
+    "static/js/2.d677d3e1.chunk.js.LICENSE.txt": "/static/js/2.d677d3e1.chunk.js.LICENSE.txt",
+    "static/media/Andrew.jpg": "/static/media/Andrew.5c698194.jpg",
+    "static/media/Dustin.png": "/static/media/Dustin.3e889b3a.png",
+    "static/media/Eric.jpg": "/static/media/Eric.93af4861.jpg",
+    "static/media/Falcon.jpg": "/static/media/Falcon.132b1efb.jpg",
+    "static/media/Johng.jpg": "/static/media/Johng.442c2e47.jpg",
+    "static/media/Paul.png": "/static/media/Paul.b34015f0.png",
+    "static/media/Paul.jpg": "/static/media/Paul.e30e62a2.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cc997f25.js",
+    "static/js/2.d677d3e1.chunk.js",
+    "static/css/main.8bcbd900.chunk.css",
+    "static/js/main.69d57af0.chunk.js"
+  ]
+}
