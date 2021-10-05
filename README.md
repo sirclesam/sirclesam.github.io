@@ -1,5 +1,11 @@
-Make changes to master branch
+To make changes:
+
+get push access to repo
+
+clone repo
+
+npm install
+
+commit changes to master
 
 npm run deploy
-
-code will build and be pushed to gh-pages branch
