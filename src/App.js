@@ -48,7 +48,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p id="title">
-          Welcome to the Future home of <code>DickSpiders.com</code>
+          Welcome to the fantastic home of <code>DickSpiders.com</code>
         </p>
         <button className={"moarDick"} onClick={getRandomDick}>
           GIVE ME MORE DICK<span className="tinySpiders">spiders</span>!
